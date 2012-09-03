@@ -1,0 +1,18 @@
+Arena map files end in .arm (ARena Map)
+The format is as follows:
+1 byte - width of map (in squares)
+1 byte - height of map (in squares)
+?bytes - map data
+
+--map data--
+1 byte per square. read linearlly across, like English.no line breaks.
+those are determined by the width of the map.
+terrain.
+
+00-nothing (barrier)
+01-grass
+02-dirt
+03-portal
+
+
+will probably eventually encode some sort of compression and other map data.

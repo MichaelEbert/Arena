@@ -1,0 +1,7 @@
+'version log'. lol.
+1.0: basic
+1.1: added collision system. Implemented minor optimization.
+1.2: created completely new turn system (commented out until further notice)
+1.3: added death, spawn new enemies.
+1.4: added moving camera, new area
+1.5: added menus! starting to look like an actual game!

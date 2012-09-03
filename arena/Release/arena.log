@@ -1,0 +1,26 @@
+﻿Build started 4/29/2012 3:23:56 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\arena\arena.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\arena.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\michael\documents\visual studio 2010\projects\arena\backup_from_flashdrive\arena\person.h(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>main.cpp(552): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\Release\arena.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\arena.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\Release\arena.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\Release\arena.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         arena.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\Release\arena.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\Release\arena.exe;#1" /manifest Release\arena.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\arena.unsuccessfulbuild".
+         Touching "Release\arena.lastbuildstate".
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2010\Projects\arena\backup_From_flashdrive\arena\arena.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.60
