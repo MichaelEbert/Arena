@@ -149,6 +149,7 @@ int APIENTRY WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 	readMap(currentMapFile);
 	//Set up and initialize Direct3D, render first frame
     initD3D(hWnd);
+	ArenaWindow shopMenuWindow(300,200,60,60,"border1.bmp",3);
 	initBaseGround();
 	renderFrame();
 	
@@ -796,4 +797,4 @@ void spawnMonster(void)
 		}
 	}
 }
-//all code copyright(c) 2011 Michael Ebert -- all rights reserved
+//all code copyright(c) 2012 Michael Ebert -- all rights reserved

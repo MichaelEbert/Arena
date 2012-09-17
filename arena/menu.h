@@ -2,7 +2,19 @@
 #define MENU_H
 
 //#include <string>
+/*
+*
+*Menu class:
+*Basically a list. contains:
+*elements
+*numberofentries
 
+*each element contains:
+*-name (string)
+*-value (int)
+*
+*
+*/
 class menu{
 public:
 	menu(int numberOfEntries, string entryNames[], int entryValues[]);
